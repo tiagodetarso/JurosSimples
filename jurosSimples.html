@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Cálculo o Juros Simples</title>
+    <link rel="stylesheet" type="type/css" href="jurosSimples.css" media="screen" \>
+</head>
+<body>
+    <p>JUROS SIMPLES</p>
+    <div id="calculo">
+        <p>Preencha três dos campos abaixo</p>
+        <div id="labels">
+            <label id="lblj">Juros: R$</label><br><br>
+            <label id="lblc">Capital: R$</label><br><br>
+            <label id="lblt">Taxa:</label><br><br>
+            <label id="lblp">Período:</label><br><br>
+        </div>
+        <div id="tboxes">
+            <input type="number" name="juros" id="txtj"><br><br>
+            <input type="number" name="juros" id="txtc"><br><br>
+            <input type="number" name="juros" id="txtt">% ao<select id="taxatempo">
+                <option>----</option>
+                <option>d</option>
+                <option>m</option>
+                <option>bim</option>
+                <option>trim</option>
+                <option>quadrim</option>
+                <option>sem</option>
+                <option>a</option>
+                </select><br><br>
+            <input type="number" name="juros" id="txtp">   <select id="tempo">
+                <option>----</option>
+                <option>d</option>
+                <option>m</option>
+                <option>bim</option>
+                <option>trim</option>
+                <option>quadrim</option>
+                <option>sem</option>
+                <option>a</option>
+                </select><br><br>
+        </div>
+        <div id="botao">
+            <button id="calcular" onclick="calcular()">Calcular</button> 
+        </div>    
+    </div>
+    <footer>
+        <p>&copy; TTloads</p>
+    </footer>
+    <script src="jurosSimples.js"></script>
+    
+</body>
+</html>
